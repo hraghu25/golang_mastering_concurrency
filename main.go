@@ -39,4 +39,7 @@ func main() {
 	} else {
 		fmt.Println("Channel is closed, no result available")
 	}
+
+	fmt.Print("Press Enter to exit....")
+	fmt.Scanln()
 }
