@@ -14,7 +14,7 @@ func (person *Person) FullName() string {
 }
 
 func main() {
-	// Creating an unbuffered channel or Asyncronous channel.
+	// Creating an unbuffered channel.
 	resultChannel := make(chan string, 139)
 
 	// Declare actual value to a variable
